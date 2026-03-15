@@ -19,7 +19,7 @@ export default function KaufenPage() {
   return (
     <div className="pt-24">
       <section className="px-6 pt-12 pb-24 max-w-3xl mx-auto text-center">
-        <h1 className="font-heading text-5xl md:text-6xl text-[#28201A] mb-6">
+        <h1 className="font-heading text-5xl md:text-6xl text-[#73605a] mb-6">
           Dein Zugang zum Kurs
         </h1>
         <p className="text-lg text-[#7A6C60] font-body leading-relaxed mb-12 max-w-xl mx-auto">
@@ -30,14 +30,14 @@ export default function KaufenPage() {
         {/* Card */}
         <div className="bg-white border border-[#DDD0B8] rounded-3xl p-8 md:p-10 max-w-lg mx-auto shadow-sm">
           <p className="text-sm font-body font-semibold text-[#4A3272] mb-2">Komplettzugang</p>
-          <h2 className="font-heading text-4xl text-[#28201A] mb-6">
+          <h2 className="font-heading text-4xl text-[#73605a] mb-6">
             {course.title}
           </h2>
           <ul className="text-left mb-8 space-y-3">
             {included.map((item) => (
               <li key={item} className="flex items-start gap-3">
                 <Check size={16} className="text-[#A4BC9C] mt-1 flex-shrink-0" />
-                <span className="text-sm text-[#28201A] font-body">{item}</span>
+                <span className="text-sm text-[#73605a] font-body">{item}</span>
               </li>
             ))}
           </ul>

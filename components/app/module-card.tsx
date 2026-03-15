@@ -25,10 +25,10 @@ export function ModuleCard({ module, index, progress }: ModuleCardProps) {
       <div className="bg-white border border-[#DDD0B8] rounded-2xl p-5 hover:border-[#C8BAE6] hover:shadow-sm transition-all duration-200 h-full">
         <div className="flex items-start justify-between gap-3 mb-3">
           <div className="flex items-center gap-3">
-            <span className="w-8 h-8 rounded-full bg-[#EBE2A2] flex items-center justify-center text-xs font-bold text-[#28201A] font-body flex-shrink-0">
+            <span className="w-8 h-8 rounded-full bg-[#EBE2A2] flex items-center justify-center text-xs font-bold text-[#73605a] font-body flex-shrink-0">
               {index + 1}
             </span>
-            <h3 className="font-heading text-base md:text-lg text-[#28201A] leading-snug group-hover:text-[#4A3272] transition-colors">
+            <h3 className="font-heading text-base md:text-lg text-[#73605a] leading-snug group-hover:text-[#4A3272] transition-colors">
               {module.title}
             </h3>
           </div>

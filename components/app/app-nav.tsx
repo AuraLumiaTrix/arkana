@@ -23,7 +23,7 @@ export function AppNav() {
       {/* Desktop sidebar */}
       <aside className="hidden md:flex flex-col fixed left-0 top-0 bottom-0 w-60 bg-white border-r border-[#DDD0B8] z-40">
         <div className="px-6 h-16 flex items-center border-b border-[#DDD0B8]">
-          <Link href="/app/dashboard" className="font-heading text-xl text-[#28201A] hover:text-[#4A3272] transition-colors">
+          <Link href="/app/dashboard" className="font-heading text-xl text-[#73605a] hover:text-[#4A3272] transition-colors">
             Arkana
           </Link>
         </div>
@@ -36,7 +36,7 @@ export function AppNav() {
                 'flex items-center gap-3 px-4 py-2.5 rounded-xl text-sm font-body font-medium transition-all',
                 pathname === href || pathname.startsWith(href + '/')
                   ? 'bg-[#EDE8F5] text-[#4A3272]'
-                  : 'text-[#7A6C60] hover:bg-[#EDE8F5] hover:text-[#28201A]'
+                  : 'text-[#7A6C60] hover:bg-[#EDE8F5] hover:text-[#73605a]'
               )}
             >
               <Icon size={17} />
@@ -57,10 +57,10 @@ export function AppNav() {
 
       {/* Mobile top bar */}
       <header className="md:hidden fixed top-0 left-0 right-0 z-50 bg-white border-b border-[#DDD0B8] h-14 flex items-center justify-between px-4">
-        <Link href="/app/dashboard" className="font-heading text-xl text-[#28201A]">
+        <Link href="/app/dashboard" className="font-heading text-xl text-[#73605a]">
           Arkana
         </Link>
-        <button onClick={() => setMobileOpen(!mobileOpen)} className="p-2 text-[#28201A]" aria-label="Menü">
+        <button onClick={() => setMobileOpen(!mobileOpen)} className="p-2 text-[#73605a]" aria-label="Menü">
           {mobileOpen ? <X size={21} /> : <Menu size={21} />}
         </button>
       </header>

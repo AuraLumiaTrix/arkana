@@ -36,7 +36,7 @@ export default function HomePage() {
               <div className="w-12 h-12 rounded-full bg-[#EDE8F5] flex items-center justify-center mx-auto mb-4">
                 <Icon size={22} className="text-[#7B60B4]" />
               </div>
-              <h3 className="font-heading text-lg text-[#28201A] mb-2">{title}</h3>
+              <h3 className="font-heading text-lg text-[#73605a] mb-2">{title}</h3>
               <p className="text-sm text-[#7A6C60] font-body">{desc}</p>
             </div>
           ))}
@@ -48,7 +48,7 @@ export default function HomePage() {
       {/* Trust / About */}
       <section className="py-24 px-6">
         <div className="max-w-3xl mx-auto text-center">
-          <h2 className="font-heading text-4xl md:text-5xl text-[#28201A] mb-6">
+          <h2 className="font-heading text-4xl md:text-5xl text-[#73605a] mb-6">
             Warum dieser Ansatz anders ist
           </h2>
           <p className="text-base md:text-lg text-[#7A6C60] font-body leading-relaxed mb-8">

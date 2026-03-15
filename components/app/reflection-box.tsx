@@ -15,7 +15,7 @@ export function ReflectionBox({ questions }: ReflectionBoxProps) {
             <span className="w-5 h-5 rounded-full bg-[#C8BAE6]/30 text-[#4A3272] flex items-center justify-center text-xs font-bold font-body flex-shrink-0 mt-0.5">
               {i + 1}
             </span>
-            <p className="text-sm text-[#28201A] font-body leading-relaxed">{q}</p>
+            <p className="text-sm text-[#73605a] font-body leading-relaxed">{q}</p>
           </li>
         ))}
       </ul>

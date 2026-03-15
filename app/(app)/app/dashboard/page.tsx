@@ -43,7 +43,7 @@ export default function DashboardPage() {
           <div className="bg-white border border-[#C8BAE6] rounded-2xl p-5 flex items-center justify-between hover:shadow-sm transition-all group">
             <div>
               <p className="text-xs text-[#7B60B4] font-body font-medium mb-1">Deine nächste Lektion</p>
-              <p className="font-heading text-lg text-[#28201A] group-hover:text-[#4A3272] transition-colors">
+              <p className="font-heading text-lg text-[#73605a] group-hover:text-[#4A3272] transition-colors">
                 {course.modules
                   .flatMap((m) => m.lessons)
                   .find((l) => l.slug === next.lessonSlug)?.title}
@@ -58,7 +58,7 @@ export default function DashboardPage() {
 
       {/* Module grid */}
       <div>
-        <h2 className="font-heading text-2xl text-[#28201A] mb-4">Deine Module</h2>
+        <h2 className="font-heading text-2xl text-[#73605a] mb-4">Deine Module</h2>
         <div className="grid grid-cols-1 md:grid-cols-2 gap-4">
           {course.modules.map((mod, i) => (
             <ModuleCard key={mod.slug} module={mod} index={i} progress={progress} />

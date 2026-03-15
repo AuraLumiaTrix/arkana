@@ -6,7 +6,7 @@ export function Footer() {
       <div className="max-w-5xl mx-auto px-6 py-12">
         <div className="grid grid-cols-1 md:grid-cols-3 gap-8">
           <div>
-            <p className="font-heading text-2xl text-[#28201A] mb-3">Arkana</p>
+            <p className="font-heading text-2xl text-[#73605a] mb-3">AuraLumia Arkana-Guide</p>
             <p className="text-sm text-[#7A6C60] font-body leading-relaxed">
               Tarot als Werkzeug zur Heilung, Befreiung und innerer Transformation.
             </p>
@@ -16,9 +16,9 @@ export function Footer() {
               Kurs
             </p>
             <div className="flex flex-col gap-2">
-              <Link href="/kurs" className="text-sm text-[#28201A] hover:text-[#4A3272] font-body">Der Kurs</Link>
-              <Link href="/kaufen" className="text-sm text-[#28201A] hover:text-[#4A3272] font-body">Zugang sichern</Link>
-              <Link href="/faq" className="text-sm text-[#28201A] hover:text-[#4A3272] font-body">FAQ</Link>
+              <Link href="/kurs" className="text-sm text-[#73605a] hover:text-[#4A3272] font-body">Der Kurs</Link>
+              <Link href="/kaufen" className="text-sm text-[#73605a] hover:text-[#4A3272] font-body">Zugang sichern</Link>
+              <Link href="/faq" className="text-sm text-[#73605a] hover:text-[#4A3272] font-body">FAQ</Link>
             </div>
           </div>
           <div>
@@ -26,9 +26,9 @@ export function Footer() {
               Rechtliches
             </p>
             <div className="flex flex-col gap-2">
-              <Link href="/impressum" className="text-sm text-[#28201A] hover:text-[#4A3272] font-body">Impressum</Link>
-              <Link href="/datenschutz" className="text-sm text-[#28201A] hover:text-[#4A3272] font-body">Datenschutz</Link>
-              <Link href="/agb" className="text-sm text-[#28201A] hover:text-[#4A3272] font-body">AGB</Link>
+              <Link href="/impressum" className="text-sm text-[#73605a] hover:text-[#4A3272] font-body">Impressum</Link>
+              <Link href="/datenschutz" className="text-sm text-[#73605a] hover:text-[#4A3272] font-body">Datenschutz</Link>
+              <Link href="/agb" className="text-sm text-[#73605a] hover:text-[#4A3272] font-body">AGB</Link>
             </div>
           </div>
         </div>

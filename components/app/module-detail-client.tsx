@@ -21,7 +21,7 @@ export function ModuleDetailClient() {
   if (!mod) {
     return (
       <div className="text-center py-24">
-        <h1 className="font-heading text-3xl text-[#28201A] mb-4">Modul nicht gefunden</h1>
+        <h1 className="font-heading text-3xl text-[#73605a] mb-4">Modul nicht gefunden</h1>
         <Link href="/app/module" className="text-[#4A3272] font-body underline">
           Zurück zur Übersicht
         </Link>
@@ -50,7 +50,7 @@ export function ModuleDetailClient() {
 
       <div className="mb-6">
         <div className="flex items-center gap-3 mb-2">
-          <h1 className="font-heading text-3xl text-[#28201A]">{mod.title}</h1>
+          <h1 className="font-heading text-3xl text-[#73605a]">{mod.title}</h1>
           {mod.isBonus && <Badge variant="bonus">Bonus</Badge>}
         </div>
         <p className="text-sm text-[#7A6C60] font-body mb-4">{mod.description}</p>

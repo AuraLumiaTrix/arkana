@@ -6,7 +6,7 @@ export function ModulePreview() {
     <section className="py-24 px-6">
       <div className="max-w-5xl mx-auto">
         <div className="text-center mb-14">
-          <h2 className="font-heading text-4xl md:text-5xl text-[#28201A] mb-4">
+          <h2 className="font-heading text-4xl md:text-5xl text-[#73605a] mb-4">
             Dein Kursinhalt
           </h2>
           <p className="text-base text-[#7A6C60] font-body max-w-xl mx-auto">
@@ -23,10 +23,10 @@ export function ModulePreview() {
             >
               <div className="flex items-start justify-between gap-3 mb-3">
                 <div className="flex items-center gap-3">
-                  <span className="w-8 h-8 rounded-full bg-[#EBE2A2] flex items-center justify-center text-xs font-bold text-[#28201A] font-body">
+                  <span className="w-8 h-8 rounded-full bg-[#EBE2A2] flex items-center justify-center text-xs font-bold text-[#73605a] font-body">
                     {i + 1}
                   </span>
-                  <h3 className="font-heading text-lg text-[#28201A] leading-tight">{mod.title}</h3>
+                  <h3 className="font-heading text-lg text-[#73605a] leading-tight">{mod.title}</h3>
                 </div>
                 {mod.isBonus && <Badge variant="bonus">Bonus ✨</Badge>}
               </div>

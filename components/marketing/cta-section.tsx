@@ -10,7 +10,7 @@ export function CtaSection() {
           <p className="font-heading text-sm tracking-widest text-[#7B60B4] uppercase mb-4">
             Dein nächster Schritt
           </p>
-          <h2 className="font-heading text-4xl md:text-5xl text-[#28201A] mb-6">
+          <h2 className="font-heading text-4xl md:text-5xl text-[#73605a] mb-6">
             Bereit, dich zu befreien?
           </h2>
           <p className="text-base md:text-lg text-[#7A6C60] font-body leading-relaxed mb-10 max-w-xl mx-auto">

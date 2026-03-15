@@ -31,7 +31,7 @@ export function LessonPlayer({ mediaType, mediaUrl, title }: LessonPlayerProps) 
           </div>
           <div>
             <p className="text-xs text-[#7A6C60] font-body mb-1">Audio-Lektion</p>
-            <p className="font-heading text-lg text-[#28201A]">{title}</p>
+            <p className="font-heading text-lg text-[#73605a]">{title}</p>
           </div>
         </div>
         <audio controls className="w-full" src={mediaUrl}>

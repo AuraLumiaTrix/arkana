@@ -19,7 +19,7 @@ export function DashboardHeader({
   return (
     <div className="bg-gradient-to-br from-[#EDE8F5] to-[#F5EEE2] rounded-3xl p-6 md:p-8 border border-[#DDD0B8]">
       <p className="text-sm text-[#7B60B4] font-body font-medium mb-1">{greeting}</p>
-      <h1 className="font-heading text-3xl md:text-4xl text-[#28201A] mb-6">
+      <h1 className="font-heading text-3xl md:text-4xl text-[#73605a] mb-6">
         Willkommen zurück, {name} ✨
       </h1>
       <div className="space-y-2">

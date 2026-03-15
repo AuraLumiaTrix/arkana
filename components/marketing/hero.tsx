@@ -22,7 +22,7 @@ export function Hero() {
         </div>
 
         {/* Headline */}
-        <h1 className="font-heading text-5xl md:text-6xl lg:text-7xl text-[#28201A] leading-tight mb-6">
+        <h1 className="font-heading text-5xl md:text-6xl lg:text-7xl text-[#73605a] leading-tight mb-6">
           Tarot, Ahnenheilung &<br />
           <span className="text-[#4A3272] italic">das Lösen alter</span>{' '}
           <span className="relative">

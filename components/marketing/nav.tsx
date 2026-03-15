@@ -18,8 +18,8 @@ export function MarketingNav() {
     <header className="fixed top-0 left-0 right-0 z-50 bg-white/90 backdrop-blur-sm border-b border-[#DDD0B8]">
       <div className="max-w-5xl mx-auto px-6 h-16 flex items-center justify-between">
         {/* Logo */}
-        <Link href="/" className="font-heading text-2xl text-[#28201A] tracking-wide hover:text-[#4A3272] transition-colors">
-          Arkana
+        <Link href="/" className="font-heading text-2xl text-[#73605a] tracking-wide hover:text-[#4A3272] transition-colors">
+          AuraLumia Arkana-Guide
         </Link>
 
         {/* Desktop nav */}
@@ -28,7 +28,7 @@ export function MarketingNav() {
             <Link
               key={l.href}
               href={l.href}
-              className="text-sm font-body font-medium text-[#7A6C60] hover:text-[#28201A] transition-colors"
+              className="text-sm font-body font-medium text-[#7A6C60] hover:text-[#73605a] transition-colors"
             >
               {l.label}
             </Link>
@@ -47,7 +47,7 @@ export function MarketingNav() {
 
         {/* Mobile toggle */}
         <button
-          className="md:hidden text-[#28201A] p-2"
+          className="md:hidden text-[#73605a] p-2"
           onClick={() => setOpen(!open)}
           aria-label="Menü öffnen"
         >
@@ -62,7 +62,7 @@ export function MarketingNav() {
             <Link
               key={l.href}
               href={l.href}
-              className="text-base font-body font-medium text-[#28201A]"
+              className="text-base font-body font-medium text-[#73605a]"
               onClick={() => setOpen(false)}
             >
               {l.label}

@@ -56,7 +56,7 @@ export default function AppLayout({ children }: { children: React.ReactNode }) {
     return (
       <div className="min-h-screen flex items-center justify-center px-6 bg-[#FFFFFF]">
         <div className="max-w-md text-center">
-          <h1 className="font-heading text-3xl text-[#28201A] mb-4">
+          <h1 className="font-heading text-3xl text-[#73605a] mb-4">
             Kein Zugang
           </h1>
           <p className="text-sm text-[#7A6C60] font-body mb-6">

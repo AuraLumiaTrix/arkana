@@ -43,7 +43,7 @@ export default function LoginForm() {
     <div className="min-h-screen flex items-center justify-center px-6 pt-20 pb-16">
       <div className="w-full max-w-sm">
         <div className="text-center mb-8">
-          <Link href="/" className="font-heading text-3xl text-[#28201A] hover:text-[#4A3272] transition-colors">
+          <Link href="/" className="font-heading text-3xl text-[#73605a] hover:text-[#4A3272] transition-colors">
             Arkana
           </Link>
           <p className="text-sm text-[#7A6C60] font-body mt-3">

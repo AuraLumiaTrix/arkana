@@ -28,7 +28,7 @@ export default function DownloadsPage() {
 
   return (
     <div className="pb-12 max-w-3xl mx-auto">
-      <h1 className="font-heading text-3xl text-[#28201A] mb-2">Downloads</h1>
+      <h1 className="font-heading text-3xl text-[#73605a] mb-2">Downloads</h1>
       <p className="text-sm text-[#7A6C60] font-body mb-8">
         Alle Workbooks, Journal-Vorlagen und Materialien an einem Ort.
       </p>
@@ -42,7 +42,7 @@ export default function DownloadsPage() {
       <div className="space-y-8">
         {Object.entries(grouped).map(([moduleName, items]) => (
           <div key={moduleName}>
-            <h2 className="font-heading text-xl text-[#28201A] mb-3">{moduleName}</h2>
+            <h2 className="font-heading text-xl text-[#73605a] mb-3">{moduleName}</h2>
             <div className="flex flex-col gap-2">
               {items.map(({ download }) => (
                 <DownloadCard key={download.fileUrl} download={download} />

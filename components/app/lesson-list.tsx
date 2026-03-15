@@ -40,7 +40,7 @@ export function LessonList({ lessons, progress, moduleSlug: _moduleSlug }: Lesso
                 <p
                   className={cn(
                     'text-sm font-body font-medium leading-snug truncate',
-                    done ? 'text-[#4A7040]' : 'text-[#28201A] group-hover:text-[#4A3272]'
+                    done ? 'text-[#4A7040]' : 'text-[#73605a] group-hover:text-[#4A3272]'
                   )}
                 >
                   {lesson.title}

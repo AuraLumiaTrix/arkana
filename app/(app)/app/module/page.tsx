@@ -27,7 +27,7 @@ export default function ModulePage() {
   return (
     <div className="pb-12">
       <div className="mb-8">
-        <h1 className="font-heading text-3xl text-[#28201A] mb-2">Alle Module</h1>
+        <h1 className="font-heading text-3xl text-[#73605a] mb-2">Alle Module</h1>
         <p className="text-sm text-[#7A6C60] font-body mb-4">
           {completed} von {total} Lektionen abgeschlossen
         </p>

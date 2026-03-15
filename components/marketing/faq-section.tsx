@@ -46,7 +46,7 @@ function FaqItem({ question, answer }: { question: string; answer: string }) {
         onClick={() => setOpen(!open)}
         aria-expanded={open}
       >
-        <span className="font-body font-semibold text-[#28201A] text-base">{question}</span>
+        <span className="font-body font-semibold text-[#73605a] text-base">{question}</span>
         <ChevronDown
           size={18}
           className={cn('text-[#7A6C60] flex-shrink-0 transition-transform duration-200', open && 'rotate-180')}

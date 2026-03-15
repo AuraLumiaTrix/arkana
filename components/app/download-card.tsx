@@ -18,7 +18,7 @@ export function DownloadCard({ download }: DownloadCardProps) {
         <FileDown size={18} className="text-[#7A6020]" />
       </div>
       <div className="flex-1 min-w-0">
-        <p className="text-sm font-semibold text-[#28201A] font-body group-hover:text-[#4A3272] transition-colors truncate">
+        <p className="text-sm font-semibold text-[#73605a] font-body group-hover:text-[#4A3272] transition-colors truncate">
           {download.title}
         </p>
         <p className="text-xs text-[#7A6C60] font-body">PDF herunterladen</p>

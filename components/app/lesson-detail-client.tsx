@@ -31,7 +31,7 @@ export function LessonDetailClient() {
   if (!found) {
     return (
       <div className="text-center py-24">
-        <h1 className="font-heading text-3xl text-[#28201A] mb-4">Lektion nicht gefunden</h1>
+        <h1 className="font-heading text-3xl text-[#73605a] mb-4">Lektion nicht gefunden</h1>
         <Link href="/app/module" className="text-[#4A3272] font-body underline">
           Zur Modulübersicht
         </Link>
@@ -60,7 +60,7 @@ export function LessonDetailClient() {
       </Link>
 
       <div className="mb-6">
-        <h1 className="font-heading text-3xl md:text-4xl text-[#28201A] mb-2">
+        <h1 className="font-heading text-3xl md:text-4xl text-[#73605a] mb-2">
           {lesson.title}
         </h1>
         <div className="flex items-center gap-3 flex-wrap">
@@ -73,7 +73,7 @@ export function LessonDetailClient() {
         </div>
       </div>
 
-      <p className="text-base text-[#28201A] font-body leading-relaxed mb-8 italic">
+      <p className="text-base text-[#73605a] font-body leading-relaxed mb-8 italic">
         {lesson.intro}
       </p>
 
@@ -90,7 +90,7 @@ export function LessonDetailClient() {
           <p className="text-xs font-semibold text-[#7A6C60] uppercase tracking-widest font-body mb-3">
             ✨ Zusammenfassung
           </p>
-          <p className="text-sm text-[#28201A] font-body leading-relaxed">{lesson.summary}</p>
+          <p className="text-sm text-[#73605a] font-body leading-relaxed">{lesson.summary}</p>
         </div>
       )}
 

@@ -13,7 +13,7 @@ export default function KursPage() {
       {/* Hero */}
       <section className="px-6 pt-12 pb-20 text-center">
         <div className="max-w-3xl mx-auto">
-          <h1 className="font-heading text-5xl md:text-6xl text-[#28201A] mb-6">
+          <h1 className="font-heading text-5xl md:text-6xl text-[#73605a] mb-6">
             {course.title}
           </h1>
           <p className="text-lg text-[#7A6C60] font-body leading-relaxed mb-10 max-w-xl mx-auto">

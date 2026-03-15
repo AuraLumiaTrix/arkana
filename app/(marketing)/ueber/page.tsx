@@ -7,7 +7,7 @@ export default function UeberPage() {
   return (
     <div className="pt-24">
       <section className="px-6 pt-12 pb-20 max-w-3xl mx-auto text-center">
-        <h1 className="font-heading text-5xl md:text-6xl text-[#28201A] mb-8">
+        <h1 className="font-heading text-5xl md:text-6xl text-[#73605a] mb-8">
           Über mich
         </h1>
         <div className="w-32 h-32 rounded-full bg-gradient-to-br from-[#C8BAE6] to-[#C6A338] mx-auto mb-8" />
